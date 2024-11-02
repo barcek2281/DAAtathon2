@@ -4,9 +4,9 @@ import data_processing
 import visualization
 import forecasting
 
-def main():
+def model():
     #загрузка данных
-    data = data_loader.load_data("bus_bts.csv")
+    data = data_loader.load_data("input/bus_bts.csv")
 
     daily_passengers = data_processing.process_data(data)
     if daily_passengers is None:
@@ -30,4 +30,4 @@ def main():
     plt.show()
 
 if __name__ == "__main__":
-    main()
+    model()

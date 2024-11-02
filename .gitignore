@@ -1,2 +1,5 @@
-bus_bts.csv
+input/bus_bts.csv
 .venv
+venv
+__pycache__/
+test.ipynb
